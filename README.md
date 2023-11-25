@@ -165,23 +165,27 @@
 
 #### Cognition
 
-|                            Models                            |                           version                            | Common_Sense_Reasoning | Numerical_Calculation | Text_Translation | Code_Reasoning | score  |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------------: | :-------------------: | :--------------: | :------------: | :----: |
-|      [MiniGPT-4](https://arxiv.org/pdf/2304.10592.pdf)       |    [Vicuna-13B](https://github.com/Vision-CAIR/MiniGPT-4)    |         59.29          |         45.00         |       0.00       |     40.00      | 144.29 |
-|       [PandaGPT](https://arxiv.org/pdf/2305.16355.pdf)       |       [Vicuna-7B](https://github.com/yxuansu/PandaGPT)       |         73.57          |         50.00         |      57.50       |     47.50      | 228.57 |
-|        [LLaVA](https://arxiv.org/pdf/2304.08485.pdf)         |      [Vicuna-13B](https://github.com/haotian-liu/LLaVA)      |         127.86         |         42.50         |      77.50       |     47.50      | 295.36 |
-|        [LaVIN](https://arxiv.org/pdf/2305.15023.pdf)         |       [LAVIN-13B](https://github.com/luogen1996/LaVIN)       |         87.14          |         65.00         |      47.50       |     50.00      | 249.64 |
-|       [VPGTrans](https://arxiv.org/pdf/2305.01278.pdf)       |      [Vicuna-7B](https://github.com/VPGTrans/VPGTrans)       |         64.29          |         50.00         |      77.50       |     57.50      | 249.29 |
-|         [Lynx](https://arxiv.org/pdf/2307.02469.pdf)         |      [Vicuna-7B](https://github.com/bytedance/lynx-llm)      |         110.71         |         17.50         |      42.50       |     45.00      | 215.71 |
-|       [Cheetor](https://arxiv.org/pdf/2308.04152.pdf)        |       [Vicuna-7B](https://github.com/DCDmllm/Cheetah)        |         98.57          |         77.50         |      57.50       |     87.50      | 321.07 |
-|          [Muffin](https://github.com/thunlp/Muffin)          |        [Vicuna-13B](https://github.com/thunlp/Muffin)        |         137.76         |         81.76         |      151.25      |     146.25     | 116.50 |
-|       [InfMLLM](https://github.com/mightyzau/InfMLLM)        |      [Vicuna-13B](https://github.com/mightyzau/InfMLLM)      |         132.14         |         60.00         |      102.50      |     52.50      | 347.14 |
-|          [CVLM](https://github.com/buptlihang/CVLM)          |       [Vicuna-13B](https://github.com/buptlihang/CVLM)       |         131.43         |        137.50         |      147.50      |     72.50      | 488.93 |
-|   [LVIS-INSTRUCT4V](https://arxiv.org/pdf/2311.07574.pdf)    |    [Vicuna-13B](https://github.com/X2FD/LVIS-INSTRUCT4V)     |         134.29         |         40.00         |      70.00       |     42.50      | 286.79 |
-| [ShareGPT4V](模型名称：ShareGPT4V，链接：https://arxiv.org/pdf/2311.12793.pdf 版本名称：Vicuna-13B，链接：https://github.com/InternLM/InternLM-XComposer/tree/main/projects/ShareGPT4V) | [Vicuna-13B](https://github.com/InternLM/InternLM-XComposer/tree/main/projects/ShareGPT4V) |         125.71         |         45.00         |      80.00       |     52.50      | 303.21 |
-|  [DataOptim-LLaVA](https://github.com/BAAI-DCAI/DataOptim)   |     [Vicuna-13B](https://github.com/BAAI-DCAI/DataOptim)     |         123.57         |         47.50         |      110.00      |     80.00      | 361.07 |
+|                          Models                           |                           version                            | Common_Sense_Reasoning | Numerical_Calculation | Text_Translation | Code_Reasoning | score  |
+| :-------------------------------------------------------: | :----------------------------------------------------------: | :--------------------: | :-------------------: | :--------------: | :------------: | :----: |
+|     [MiniGPT-4](https://arxiv.org/pdf/2304.10592.pdf)     |    [Vicuna-13B](https://github.com/Vision-CAIR/MiniGPT-4)    |         59.29          |         45.00         |       0.00       |     40.00      | 144.29 |
+|     [PandaGPT](https://arxiv.org/pdf/2305.16355.pdf)      |       [Vicuna-7B](https://github.com/yxuansu/PandaGPT)       |         73.57          |         50.00         |      57.50       |     47.50      | 228.57 |
+|       [LLaVA](https://arxiv.org/pdf/2304.08485.pdf)       |      [Vicuna-13B](https://github.com/haotian-liu/LLaVA)      |         127.86         |         42.50         |      77.50       |     47.50      | 295.36 |
+|       [LaVIN](https://arxiv.org/pdf/2305.15023.pdf)       |       [LAVIN-13B](https://github.com/luogen1996/LaVIN)       |         87.14          |         65.00         |      47.50       |     50.00      | 249.64 |
+|     [VPGTrans](https://arxiv.org/pdf/2305.01278.pdf)      |      [Vicuna-7B](https://github.com/VPGTrans/VPGTrans)       |         64.29          |         50.00         |      77.50       |     57.50      | 249.29 |
+|       [Lynx](https://arxiv.org/pdf/2307.02469.pdf)        |      [Vicuna-7B](https://github.com/bytedance/lynx-llm)      |         110.71         |         17.50         |      42.50       |     45.00      | 215.71 |
+|      [Cheetor](https://arxiv.org/pdf/2308.04152.pdf)      |       [Vicuna-7B](https://github.com/DCDmllm/Cheetah)        |         98.57          |         77.50         |      57.50       |     87.50      | 321.07 |
+|        [Muffin](https://github.com/thunlp/Muffin)         |        [Vicuna-13B](https://github.com/thunlp/Muffin)        |         137.76         |         81.76         |      151.25      |     146.25     | 116.50 |
+|      [InfMLLM](https://github.com/mightyzau/InfMLLM)      |      [Vicuna-13B](https://github.com/mightyzau/InfMLLM)      |         132.14         |         60.00         |      102.50      |     52.50      | 347.14 |
+|        [CVLM](https://github.com/buptlihang/CVLM)         |       [Vicuna-13B](https://github.com/buptlihang/CVLM)       |         131.43         |        137.50         |      147.50      |     72.50      | 488.93 |
+|  [LVIS-INSTRUCT4V](https://arxiv.org/pdf/2311.07574.pdf)  |    [Vicuna-13B](https://github.com/X2FD/LVIS-INSTRUCT4V)     |         134.29         |         40.00         |      70.00       |     42.50      | 286.79 |
+|    [ShareGPT4V](https://arxiv.org/pdf/2311.12793.pdf )    | [Vicuna-13B](https://github.com/InternLM/InternLM-XComposer/tree/main/projects/ShareGPT4V) |         125.71         |         45.00         |      80.00       |     52.50      | 303.21 |
+| [DataOptim-LLaVA](https://github.com/BAAI-DCAI/DataOptim) |     [Vicuna-13B](https://github.com/BAAI-DCAI/DataOptim)     |         123.57         |         47.50         |      110.00      |     80.00      | 361.07 |
 
 </details>
+
+
+
+
 
 
 
