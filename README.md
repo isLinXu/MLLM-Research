@@ -10,7 +10,13 @@
 
 ---
 
+|                      Models_Perception                       |                       Models_Cognition                       |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![Models_Perception_bar_plot](./images/Models_Perception_bar_plot.png) | ![Models_Cognition_bar_plot](./images/Models_Cognition_bar_plot.png) |
 
+
+
+---
 
 ## MLLM Arch
 
