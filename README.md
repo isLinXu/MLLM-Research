@@ -12,7 +12,7 @@
 
 |                      Models_Perception                       |                       Models_Cognition                       |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![Models_Perception_bar_plot](./images/Models_Perception_bar_plot.png) | ![Models_Cognition_bar_plot](./images/Models_Cognition_bar_plot.png) |
+| ![Models_Perception_bar_plot](./images/bar/Models_Perception_bar_plot.png) | ![Models_Cognition_bar_plot](./images/bar/Models_Cognition_bar_plot.png) |
 
 
 
@@ -51,7 +51,25 @@
 |  3   | FlanT5xxl |      [MMICL](https://github.com/HaozheZhao/MIC)      |      [FlanT5xxl](https://arxiv.org/pdf/2309.07915.pdf)       |  1381.73   |  428.93   |
 |  4   | FlanT5xxl |    [BLIVA](https://arxiv.org/pdf/2308.09936.pdf)     |       [FlanT5xxl](https://github.com/mlpc-ucsd/BLIVA)        |  1337.73   |  331.43   |
 
+<img src="./images/chart/evaluation_chart_FlanT5xxl_1125.png" style="zoom:24%;" />
 
+#### Perception
+
+|                        Models                        |                           version                            | existence | count  | position | color  |  OCR   | posters |  cast  | scene  | landmark | artwork |  score  |
+| :--------------------------------------------------: | :----------------------------------------------------------: | :-------: | :----: | :------: | :----: | :----: | :-----: | :----: | :----: | :------: | :-----: | :-----: |
+|    [BLIP-2](https://arxiv.org/pdf/2301.12597.pdf)    | [Flant5xxl](https://github.com/salesforce/LAVIS/tree/main/projects/blip2) |  160.00   | 135.00 |  73.33   | 148.33 | 110.00 | 141.84  | 105.59 | 145.25 |  138.00  | 136.50  | 1293.84 |
+| [InstructBLIP](https://arxiv.org/pdf/2305.06500.pdf) | [FlanT5xxl](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip) |  185.00   | 143.33 |  66.67   | 153.33 | 72.50  | 123.81  | 101.18 | 153.00 |  79.75   | 134.25  | 1212.82 |
+|      [MMICL](https://github.com/HaozheZhao/MIC)      |      [FlanT5xxl](https://arxiv.org/pdf/2309.07915.pdf)       |  170.00   | 160.00 |  81.67   | 156.67 | 100.00 | 146.26  | 141.76 | 153.75 |  136.13  | 135.50  | 1381.73 |
+|    [BLIVA](https://arxiv.org/pdf/2308.09936.pdf)     |       [FlanT5xxl](https://github.com/mlpc-ucsd/BLIVA)        |  180.00   | 138.33 |  81.67   | 180.00 | 87.50  | 155.10  | 140.88 | 151.50 |  89.50   | 133.25  | 1337.73 |
+
+#### Cognition
+
+|                        Models                        |                           version                            | Common_Sense_Reasoning | Numerical_Calculation | Text_Translation | Code_Reasoning | score  |
+| :--------------------------------------------------: | :----------------------------------------------------------: | :--------------------: | :-------------------: | :--------------: | :------------: | :----: |
+|    [BLIP-2](https://arxiv.org/pdf/2301.12597.pdf)    | [Flant5xxl](https://github.com/salesforce/LAVIS/tree/main/projects/blip2) |         110.00         |         40.00         |      65.00       |     75.00      | 290.00 |
+| [InstructBLIP](https://arxiv.org/pdf/2305.06500.pdf) | [FlanT5xxl](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip) |         129.29         |         40.00         |      65.00       |     57.50      | 291.79 |
+|      [MMICL](https://github.com/HaozheZhao/MIC)      |      [FlanT5xxl](https://arxiv.org/pdf/2309.07915.pdf)       |         136.43         |         82.50         |      132.50      |     77.50      | 428.93 |
+|    [BLIVA](https://arxiv.org/pdf/2308.09936.pdf)     |       [FlanT5xxl](https://github.com/mlpc-ucsd/BLIVA)        |         136.43         |         57.50         |      77.50       |     60.00      | 331.43 |
 
 ---
 
