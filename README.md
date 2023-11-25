@@ -51,10 +51,10 @@
 |  3   | FlanT5xxl |      [MMICL](https://github.com/HaozheZhao/MIC)      |      [FlanT5xxl](https://arxiv.org/pdf/2309.07915.pdf)       |  1381.73   |  428.93   |
 |  4   | FlanT5xxl |    [BLIVA](https://arxiv.org/pdf/2308.09936.pdf)     |       [FlanT5xxl](https://github.com/mlpc-ucsd/BLIVA)        |  1337.73   |  331.43   |
 
-<p align="center">
-  <img src="./images/chart/evaluation_chart_FlanT5xxl_1125.png" width="30%" height="30%">
-</p>
 
+<details><summary>more details </summary>
+<p align="center">
+  <img src="./images/chart/evaluation_chart_FlanT5xxl_1125.png" width="30%" height="30%"></p>
 #### Perception
 
 |                        Models                        |                           version                            | existence | count  | position | color  |  OCR   | posters |  cast  | scene  | landmark | artwork |  score  |
@@ -72,6 +72,11 @@
 | [InstructBLIP](https://arxiv.org/pdf/2305.06500.pdf) | [FlanT5xxl](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip) |         129.29         |         40.00         |      65.00       |     57.50      | 291.79 |
 |      [MMICL](https://github.com/HaozheZhao/MIC)      |      [FlanT5xxl](https://arxiv.org/pdf/2309.07915.pdf)       |         136.43         |         82.50         |      132.50      |     77.50      | 428.93 |
 |    [BLIVA](https://arxiv.org/pdf/2308.09936.pdf)     |       [FlanT5xxl](https://github.com/mlpc-ucsd/BLIVA)        |         136.43         |         57.50         |      77.50       |     60.00      | 331.43 |
+</details>
+
+
+
+
 
 ---
 
@@ -84,6 +89,24 @@
 |  3   | LLaMA |        [LaVIN](https://arxiv.org/pdf/2305.15023.pdf)         |       [LAVIN-13B](https://github.com/luogen1996/LaVIN)       |   963.60   |  249.64   |
 |  4   | LLaMA |      [mPLUG-Owl2](https://arxiv.org/pdf/2311.04257.pdf)      | [LLaMA2-7B](https://github.com/X-PLUG/mPLUG-Owl/tree/main/mPLUG-Owl2) |  1450.20   |  313.21   |
 |  5   | LLaMA |   [LLaMA-Adapter V2](https://arxiv.org/pdf/2304.15010.pdf)   | [LLaMA-Adapter-v2.1-7B](https://github.com/OpenGVLab/LLaMA-Adapter/tree/main/llama_adapter_v2_multimodal7b) |  1328.39   |  356.43   |
+
+<p align="center">
+  <img src="./images/chart/evaluation_chart_llama_1125.png" width="30%" height="30%">
+</p>
+
+#### Perception
+
+| Models                                                       | version                                                      | existence | count  | position | color  | OCR    | posters_200 | cast_200 | scene_200 | landmark_200 | artwork_200 | score   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | --------- | ------ | -------- | ------ | ------ | ----------- | -------- | --------- | ------------ | ----------- | ------- |
+| [mPLUG-Owl](https://arxiv.org/pdf/2304.14178.pdf)            | [Llama-7B](https://huggingface.co/MAGAer13/mplug-owl-llama-7b) | 120.00    | 50.00  | 50.00    | 55.00  | 65.00  | 136.05      | 100.29   | 135.50    | 159.25       | 96.25       | 967.34  |
+| [SPHINX](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX) | [LLaMA2-13B](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX) | 195.00    | 160.00 | 153.33   | 160.00 | 87.50  | 164.29      | 177.94   | 160.00    | 168.09       | 134.00      | 1560.15 |
+| [LaVIN](https://arxiv.org/pdf/2305.15023.pdf)                | [LAVIN-13B](https://github.com/luogen1996/LaVIN)             | 185.00    | 88.33  | 63.33    | 75.00  | 107.50 | 79.59       | 47.35    | 136.75    | 93.50        | 87.25       | 963.60  |
+| [mPLUG-Owl2](https://arxiv.org/pdf/2311.04257.pdf)           | [LLaMA2-7B](https://github.com/X-PLUG/mPLUG-Owl/tree/main/mPLUG-Owl2) | 185.00    | 155.00 | 88.33    | 150.00 | 102.50 | 160.20      | 164.41   | 153.25    | 157.25       | 134.25      | 1450.20 |
+| [LLaMA-Adapter V2](https://arxiv.org/pdf/2304.15010.pdf)     | [LLaMA-Adapter-v2.1-7B](https://github.com/OpenGVLab/LLaMA-Adapter/tree/main/llama_adapter_v2_multimodal7b) | 185.00    | 133.33 | 56.67    | 118.33 | 102.50 | 147.96      | 136.76   | 156.25    | 167.84       | 123.75      | 1328.39 |
+
+#### Cognition
+
+
 
 
 
