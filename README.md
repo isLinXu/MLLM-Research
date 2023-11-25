@@ -51,7 +51,9 @@
 |  3   | FlanT5xxl |      [MMICL](https://github.com/HaozheZhao/MIC)      |      [FlanT5xxl](https://arxiv.org/pdf/2309.07915.pdf)       |  1381.73   |  428.93   |
 |  4   | FlanT5xxl |    [BLIVA](https://arxiv.org/pdf/2308.09936.pdf)     |       [FlanT5xxl](https://github.com/mlpc-ucsd/BLIVA)        |  1337.73   |  331.43   |
 
-<img src="./images/chart/evaluation_chart_FlanT5xxl_1125.png" width="30%" height="30%">
+<p align="center">
+  <img src="./images/chart/evaluation_chart_FlanT5xxl_1125.png" width="30%" height="30%">
+</p>
 
 #### Perception
 
